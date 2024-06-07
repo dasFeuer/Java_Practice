@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class loops {
+public class Loops {
     public static void main(String[] args) {
         System.out.println("This is loops code.");
         System.out.println("Enter the number: ");
