@@ -90,7 +90,7 @@ public class Patterns {
 //                }
 //            }
 //            System.out.println();
-//        }
+//        } // Hallow rectangle
 
 
 //        Scanner sc = new Scanner(System.in);
@@ -100,6 +100,6 @@ public class Patterns {
 //                System.out.print(userInput);
 //            }
 //            System.out.println(userInput);
-//        }
+//        } // Solid rectangle
     }
 }
