@@ -1,13 +1,16 @@
 import java.util.*;
 
 public class TwoD_Arrays {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number for rows: ");
         int rows = sc.nextInt();
+        System.out.print("Enter the number for columns: ");
         int cols = sc.nextInt();
-        int[][] numbers = new int[rows][cols];
 
-        //input
+        int[][] numbers = new int[rows][cols];
+        //Input
         //rows
         for (int i = 0; i < rows; i++) {
             //columns
@@ -16,43 +19,40 @@ public class TwoD_Arrays {
             }
         }
 
-        int x = sc.nextInt();
+        int x =sc.nextInt();
 
         for (int i = 0; i < rows; i++) {
-            //columns
             for (int j = 0; j < cols; j++) {
-                //compare with x
                 if (numbers[i][j] == x){
-                    System.out.println("X found at location (" + i + "," + j + ")");
+                    System.out.println("X found at location (" + i + ", " + j + ")");
                 }
             }
         }
     }
 }
 
-//import java.util.*;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the number for rows: ");
+//         int rows = sc.nextInt();
+//         System.out.print("Enter the number for columns: ");
+//         int cols = sc.nextInt();
 //
-//public class TwoD_Arrays {
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int rows = sc.nextInt();
-//        int cols = sc.nextInt();
-//        int[][] numbers = new int[rows][cols];
+//         int[][] numbers = new int[rows][cols];
+//         //Input
+//         //rows
+//         for (int i = 0; i < rows; i++) {
+//             //columns
+//             for (int j = 0; j < cols; j++) {
+//                 numbers[i][j] = sc.nextInt();
+//             }
+//         }
 //
-//        //input
-//        //rows
-//        for (int i = 0; i < rows; i++) {
-//            //columns
-//            for (int j = 0; j < cols; j++) {
-//                numbers[i][j] = sc.nextInt();
-//            }
-//        }
-        //output
-//        for (int i = 0; i < rows; i++) {
-//            for (int j = 0; j < cols; j++) {
-//                System.out.print(numbers[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-//    }
-//}
+//         //Output
+//         for (int i = 0; i < rows; i++) {
+//             for (int j = 0; j < cols; j++) {
+//                 System.out.print(numbers[i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
