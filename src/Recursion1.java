@@ -73,7 +73,6 @@ public class Recursion1 {
 //    }
 //}
 
-
 //public class Recursion1 {
 //    public static void printSum(int i, int n, int sum) {
 //        if (i == n) {
@@ -90,7 +89,6 @@ public class Recursion1 {
 //    }
 //}
 
-
 //public class Recursion1 {
 //    public static void printNumber(int n) {
 //        if (n == 6){
@@ -104,7 +102,6 @@ public class Recursion1 {
 //        printNumber(n); // Print 1 to 5
 //    }
 //}
-
 
 //public class Recursion1 {
 //    public static void printNumber(int n) {
