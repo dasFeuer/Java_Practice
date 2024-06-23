@@ -17,7 +17,7 @@ public class Patterns {
             }
             System.out.println();
 
-        } // 0 - 1 Triangle
+        } // 0 - 1 bank.Triangle
 
 //        int n = 5;
 //        int number = 1;
