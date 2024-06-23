@@ -1,20 +1,61 @@
 public class Recursion1 {
-    public static void printfib(int a, int b, int n) {
-        if (n == 0){
-            return;
+    public static int calcPower(int x, int n) {
+        if (n == 0) {
+            return 1; //base case 1
         }
-        int c = a + b;
-        System.out.println(c);
-        printfib(b, c, n-1);
+        if (x == 0) {
+            return 0; //base case 2
+        }
+        //If n is even.
+        if (n % 2  == 0) {
+            return calcPower(x,n/2) * calcPower(x, n/2);
+        } else { // n is odd
+            return calcPower(x, n/2) * calcPower(x, n/2) * x;
+        }
     }
     public static void main(String[] args) {
-      int a = 0, b =1;
-        System.out.println(a);
-        System.out.println(b);
-        int n = 7;
-        printfib(a, b, n-2);
+        int x = 2, n = 5;
+        int ans = calcPower(x ,n);
+        System.out.println(ans);
     }
 }
+
+//public class Recursion1 {
+//    public static int calcPower(int x, int n) {
+//        if (n == 0) {
+//            return 1; //base case 1
+//        }
+//        if (x == 0) {
+//            return 0; //base case 2
+//        }
+//        int xPownm1 = calcPower(x, n-1); // work
+//        int xPown = x * xPownm1;
+//        return xPown;
+//    }
+//    public static void main(String[] args) {
+//        int x = 2, n = 5;
+//        int ans = calcPower(x ,n);
+//        System.out.println(ans);
+//    }
+//}
+
+//public class Recursion1 {
+//    public static void printfib(int a, int b, int n) {
+//        if (n == 0){
+//            return;
+//        }
+//        int c = a + b;
+//        System.out.println(c);
+//        printfib(b, c, n-1);
+//    }
+//    public static void main(String[] args) {
+//      int a = 0, b =1;
+//        System.out.println(a);
+//        System.out.println(b);
+//        int n = 7;
+//        printfib(a, b, n-2);
+//    }
+//}
 
 //public class Recursion1 {
 //    public static int calcfactorial(int n) {
