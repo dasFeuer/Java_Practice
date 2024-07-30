@@ -1,3 +1,4 @@
+package ZahlenRaten;
 
 import java.awt.event.ActionEvent;
 import java.util.concurrent.ThreadLocalRandom;
@@ -6,11 +7,13 @@ import javax.swing.*;
 
 public class Zahl_Raten {
 
+    // Generiere eine Zufallszahl zwischen 0 und 100
     static int myNumber = ThreadLocalRandom.current().nextInt(0, 100 + 1);
     static int tries = 0;
     static JLabel text = new JLabel("Gebe eine Zahl zwischen 0 und 100 ein!: ");
     static JTextField textField = new JTextField();
 
+    // Methode zur Handhabung der Vermutungslogik
     public static void guess(int number) {
         if (number == myNumber) {
             System.out.println("Richtig geraten!");
@@ -36,6 +39,8 @@ public class Zahl_Raten {
     //     int number = sc.nextInt();
     //     guess(number);
     // }
+
+    // Methode zum Einrichten und Anzeigen der GUI
     public static void openUI() {
         JFrame frame = new JFrame("Rate die Zahl!");
         frame.setSize(400, 300);
@@ -50,6 +55,7 @@ public class Zahl_Raten {
         JButton button = new JButton("Raten!");
         button.setBounds(50, 150, 200, 30);
 
+        // Hinzufügen eines Action-Listeners zu der Schaltfläche, um Schaltflächenklicks zu verarbeiten
         button.addActionListener((ActionEvent e) -> {
             try {
                 String textfromTextfield = textField.getText();
@@ -62,6 +68,7 @@ public class Zahl_Raten {
 
         });
 
+        // Füge die Komponenten zum Rahmen hinzu
         frame.add(text);
         frame.add(textField);
         frame.add(button);
@@ -69,6 +76,7 @@ public class Zahl_Raten {
         frame.setVisible(true);
     }
 
+    // Hauptmethode zum Starten der Anwendung
     public static void main(String[] args) {
         // nextRound();
         openUI();
