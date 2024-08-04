@@ -2,7 +2,6 @@ package LibraryManagement;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 class Book {
     public int serialNo;
     public String bookName;
