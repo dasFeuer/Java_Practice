@@ -29,6 +29,7 @@ public class Calculator {
         }
         sc.close();
 
+// This IF-ELSE code can also be used to make simple calculator program.
 
 //        if (op.equals("+")) {
 //            System.out.println("Addition: " + (a + b));
