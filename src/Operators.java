@@ -22,12 +22,12 @@ public class Operators {
         //!
 
         //Binary Number System
-        //4 to Binary --> Base 2
+        //4 to Binary --> OOPS.Base 2
         //101 to Decimal
 
         //Other Systems
-        //Octal --> Base 8
-        //Hexadecimal --> Base 16
+        //Octal --> OOPS.Base 8
+        //Hexadecimal --> OOPS.Base 16
 
         //Bitwise operators
         //& --> Binary AND

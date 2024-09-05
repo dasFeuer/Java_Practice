@@ -1,4 +1,4 @@
-// OOPS --> Polymorphism Concept
+package OOPS;// OOPS.OOPS --> Polymorphism Concept
 
 class Student {
     String name;
@@ -28,7 +28,7 @@ public class OOPS {
 }
 
 
-//class Student {
+//class OOPS.Student {
 //    String name;
 //    int age;
 //
@@ -37,36 +37,36 @@ public class OOPS {
 //        System.out.println(this.age);
 //    }
 //
-////    Student() {
+////    OOPS.Student() {
 ////        System.out.println("Constructor called!");
 ////    } // Java make automatically non-parameterise --> CONSTRUCTOR
 //
 //    //Parameterise Constructor should have to made by one if needed.
-////    Student(String name, int age) {
+////    OOPS.Student(String name, int age) {
 ////        this.name = name;
 ////        this.age = age;
 ////    }
 //
 //    //Copy Constructor
-//    Student(Student s2) {
+//    OOPS.Student(OOPS.Student s2) {
 //        this.name = s2.name;
 //        this.age = s2.age;
 //    }
-//    Student(){
+//    OOPS.Student(){
 //
 //    }// s1 constructor should be defined because it wouldn't be defined by default.
 //}
 //
-//public class OOPS {
+//public class OOPS.OOPS {
 //    public static void main(String[] args) {
-//        Student s1 = new Student();
+//        OOPS.Student s1 = new OOPS.Student();
 //        s1.name = "Barun";
 //        s1.age = 21;
 //
-//        Student s2 = new Student(s1);
+//        OOPS.Student s2 = new OOPS.Student(s1);
 //        s2.printInfo();
 //
-////        Student s1 = new Student("Barun", 21);
+////        OOPS.Student s1 = new OOPS.Student("Barun", 21);
 ////        s1.name = "Barun";
 ////        s1.age = 21;
 //
@@ -87,7 +87,7 @@ public class OOPS {
 //    }
 //}
 
-//public class OOPS {
+//public class OOPS.OOPS {
 //    public static void main(String[] args) {
 //        Pen pen1 = new Pen();
 //        pen1.color = "Yellow";

@@ -1,4 +1,4 @@
-  //Interface_abstraction --> Pure abstraction
+package OOPS;  //Interface_abstraction --> Pure abstraction
   //Interface cannot have constructor
 
 interface Animal {
@@ -26,34 +26,34 @@ public class OOPS_Abstraction {
 
 //Abstraction
 
-//abstract class Animal {
+//abstract class OOPS.Animal {
 //    abstract void walk();
-//    Animal() {
+//    OOPS.Animal() {
 //        System.out.println("You are creating a new animal...");
 //    }
 //    public void eat() {
-//        System.out.println("Animal eats");
+//        System.out.println("OOPS.Animal eats");
 //    }
 //}
 //
-//class Horse extends Animal {
-//    Horse() {
-//        System.out.println("Created a Horse");
+//class OOPS.Horse extends OOPS.Animal {
+//    OOPS.Horse() {
+//        System.out.println("Created a OOPS.Horse");
 //    }
 //    public void walk() {
 //        System.out.println("Walks on 4 legs");
 //    }
 //}
 //
-//class Kiwi extends Animal {
+//class Kiwi extends OOPS.Animal {
 //    public void walk() {
 //        System.out.println("Walks on 2 legs");
 //    }
 //}
 //
-//public class OOPS_Abstraction {
+//public class OOPS.OOPS_Abstraction {
 //    public static void main(String[] args) {
-//        Horse horse = new Horse();
+//        OOPS.Horse horse = new OOPS.Horse();
 ////        horse.walk();
 ////        horse.eat();
 //    }
@@ -69,7 +69,7 @@ public class OOPS_Abstraction {
 //    }
 //  }
 //
-//  public class OOPS_Abstraction {
+//  public class OOPS.OOPS_Abstraction {
 //      public static void main(String[] args) {
 //          Stud.school = "JMV";
 //          Stud student1 = new Stud();

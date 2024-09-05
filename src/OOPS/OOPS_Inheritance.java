@@ -1,3 +1,5 @@
+package OOPS;
+
 class Base {
 
     Base(){
@@ -54,12 +56,12 @@ class ChildOfDerived extends Derived{
 
 public class OOPS_Inheritance {
     public static void main(String[] args) {
-        // Base class
+        // OOPS.Base class
         Base b = new Base();
 //        b.setX(4);
 //        System.out.println(b.getX());
 
-        // Derived class
+        // OOPS.Derived class
         Derived d = new Derived(14, 9);
 //        d.setX(43);
 //        System.out.println(d.getX());
