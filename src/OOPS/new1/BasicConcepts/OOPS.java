@@ -1,4 +1,4 @@
-package OOPS.new1;// OOPS.new1.OOPS --> Polymorphism Concept
+package OOPS.new1.BasicConcepts;// OOPS.new1.basicConcepts.OOPS --> Polymorphism Concept
 
 class Student {
     String name;
@@ -28,7 +28,7 @@ public class OOPS {
 }
 
 
-//class OOPS.new1.Student {
+//class OOPS.new1.basicConcepts.Student {
 //    String name;
 //    int age;
 //
@@ -37,36 +37,36 @@ public class OOPS {
 //        System.out.println(this.age);
 //    }
 //
-////    OOPS.new1.Student() {
+////    OOPS.new1.basicConcepts.Student() {
 ////        System.out.println("Constructor called!");
 ////    } // Java make automatically non-parameterise --> CONSTRUCTOR
 //
 //    //Parameterise Constructor should have to made by one if needed.
-////    OOPS.new1.Student(String name, int age) {
+////    OOPS.new1.basicConcepts.Student(String name, int age) {
 ////        this.name = name;
 ////        this.age = age;
 ////    }
 //
 //    //Copy Constructor
-//    OOPS.new1.Student(OOPS.new1.Student s2) {
+//    OOPS.new1.basicConcepts.Student(OOPS.new1.basicConcepts.Student s2) {
 //        this.name = s2.name;
 //        this.age = s2.age;
 //    }
-//    OOPS.new1.Student(){
+//    OOPS.new1.basicConcepts.Student(){
 //
 //    }// s1 constructor should be defined because it wouldn't be defined by default.
 //}
 //
-//public class OOPS.new1.OOPS {
+//public class OOPS.new1.basicConcepts.OOPS {
 //    public static void main(String[] args) {
-//        OOPS.new1.Student s1 = new OOPS.new1.Student();
+//        OOPS.new1.basicConcepts.Student s1 = new OOPS.new1.basicConcepts.Student();
 //        s1.name = "Barun";
 //        s1.age = 21;
 //
-//        OOPS.new1.Student s2 = new OOPS.new1.Student(s1);
+//        OOPS.new1.basicConcepts.Student s2 = new OOPS.new1.basicConcepts.Student(s1);
 //        s2.printInfo();
 //
-////        OOPS.new1.Student s1 = new OOPS.new1.Student("Barun", 21);
+////        OOPS.new1.basicConcepts.Student s1 = new OOPS.new1.basicConcepts.Student("Barun", 21);
 ////        s1.name = "Barun";
 ////        s1.age = 21;
 //
@@ -87,7 +87,7 @@ public class OOPS {
 //    }
 //}
 
-//public class OOPS.new1.OOPS {
+//public class OOPS.new1.basicConcepts.OOPS {
 //    public static void main(String[] args) {
 //        Pen pen1 = new Pen();
 //        pen1.color = "Yellow";

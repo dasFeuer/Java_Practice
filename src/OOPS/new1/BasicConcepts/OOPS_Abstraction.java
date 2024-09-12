@@ -1,4 +1,4 @@
-package OOPS.new1;  //Interface_abstraction --> Pure abstraction
+package OOPS.new1.BasicConcepts;  //Interface_abstraction --> Pure abstraction
   //Interface cannot have constructor
 
 interface Animal {
@@ -26,34 +26,34 @@ public class OOPS_Abstraction {
 
 //Abstraction
 
-//abstract class OOPS.new1.Animal {
+//abstract class OOPS.new1.basicConcepts.Animal {
 //    abstract void walk();
-//    OOPS.new1.Animal() {
+//    OOPS.new1.basicConcepts.Animal() {
 //        System.out.println("You are creating a new animal...");
 //    }
 //    public void eat() {
-//        System.out.println("OOPS.new1.Animal eats");
+//        System.out.println("OOPS.new1.basicConcepts.Animal eats");
 //    }
 //}
 //
-//class OOPS.new1.Horse extends OOPS.new1.Animal {
-//    OOPS.new1.Horse() {
-//        System.out.println("Created a OOPS.new1.Horse");
+//class OOPS.new1.basicConcepts.Horse extends OOPS.new1.basicConcepts.Animal {
+//    OOPS.new1.basicConcepts.Horse() {
+//        System.out.println("Created a OOPS.new1.basicConcepts.Horse");
 //    }
 //    public void walk() {
 //        System.out.println("Walks on 4 legs");
 //    }
 //}
 //
-//class Kiwi extends OOPS.new1.Animal {
+//class Kiwi extends OOPS.new1.basicConcepts.Animal {
 //    public void walk() {
 //        System.out.println("Walks on 2 legs");
 //    }
 //}
 //
-//public class OOPS.new1.OOPS_Abstraction {
+//public class OOPS.new1.basicConcepts.OOPS_Abstraction {
 //    public static void main(String[] args) {
-//        OOPS.new1.Horse horse = new OOPS.new1.Horse();
+//        OOPS.new1.basicConcepts.Horse horse = new OOPS.new1.basicConcepts.Horse();
 ////        horse.walk();
 ////        horse.eat();
 //    }
@@ -69,7 +69,7 @@ public class OOPS_Abstraction {
 //    }
 //  }
 //
-//  public class OOPS.new1.OOPS_Abstraction {
+//  public class OOPS.new1.basicConcepts.OOPS_Abstraction {
 //      public static void main(String[] args) {
 //          Stud.school = "JMV";
 //          Stud student1 = new Stud();

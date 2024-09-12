@@ -1,4 +1,4 @@
-package OOPS.new1;
+package OOPS.new1.BasicConcepts;
 
 import java.util.Scanner;
 
