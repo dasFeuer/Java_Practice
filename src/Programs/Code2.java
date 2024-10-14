@@ -1,3 +1,5 @@
+package Programs;
+
 import java.util.Scanner;
 
 public class Code2 {
@@ -28,6 +30,14 @@ public class Code2 {
                 default -> System.out.println("Invalid action");
 
             }
+            System.out.println("if Continue program then 'y' else 'n': ");
+            String runProgram = sc.next().toLowerCase();
+            if (runProgram.equals("n")){
+                break;
+            } else {
+                System.out.println("Welcome to the program again!");
+            }
         }
+        System.out.println("See you next time!");
     }
 }
