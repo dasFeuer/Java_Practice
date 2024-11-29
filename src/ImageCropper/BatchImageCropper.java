@@ -7,9 +7,11 @@ import javax.imageio.ImageIO;
 public class BatchImageCropper {
 
     public static void main(String[] args) {
+        //File directory
         String folderPath = "C:\\Users\\Acer\\Pictures\\NeedToCrop";
         String outputFolderPath = "C:\\Users\\Acer\\Pictures\\Cropped";
 
+        //Crop measurement
         int topCrop = 50;
         int bottomCrop = 120;
         int leftCrop = 50;
@@ -18,6 +20,7 @@ public class BatchImageCropper {
         File folder = new File(folderPath);
         File outputFolder = new File(outputFolderPath);
 
+        //Create output folder if not
         if (!outputFolder.exists()) {
             outputFolder.mkdirs();
         }
