@@ -8,8 +8,8 @@ public class BatchImageCropper {
 
     public static void main(String[] args) {
         //File directory
-        String folderPath = "C:\\Users\\Acer\\Pictures\\NeedToCrop";
-        String outputFolderPath = "C:\\Users\\Acer\\Pictures\\Cropped";
+        String folderPath = "C:\\Users\\Acer\\Desktop\\Barun MT4 - MT15 Cropping\\MT15";
+        String outputFolderPath = "C:\\Users\\Acer\\Desktop\\Barun MT4 - MT15 Cropping\\MT15 Cropped";
 
         //Crop measurement
         int topCrop = 50;
