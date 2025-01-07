@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class FindNumber {
     static void findNum(int[] arr, int target) {
         for (int element : arr) {
-            if (target != element) {
-                System.out.println("NOT FOUND --> The number you are search for, is not present in the array.");
-            } else {
+            if (target == element) {
                 System.out.println("Number is present in Array: " + target);
+                return;
             }
-            break;
         }
+        System.out.println("NOT FOUND --> The number you are search for, is not present in the array: " + target);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
