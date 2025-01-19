@@ -45,7 +45,7 @@ public class ArrayAddAndMultiply {
         int [][] sum = new int[row][column];
         int [][] multiply = new int[row][column];
 
-        System.out.println("Print the elements for first matrix: ");
+        System.out.println("Enter the elements for first matrix: ");
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
                 matrix1[i][j] = sc.nextInt();
